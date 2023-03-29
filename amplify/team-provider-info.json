@@ -1,0 +1,23 @@
+{
+  "airbnb": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ercan-airbnb-114957-authRole",
+      "UnauthRoleArn": "arn:aws:iam::584074828580:role/amplify-ercan-airbnb-114957-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::584074828580:role/amplify-ercan-airbnb-114957-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-ercan-airbnb-114957-deployment",
+      "UnauthRoleName": "amplify-ercan-airbnb-114957-unauthRole",
+      "StackName": "amplify-ercan-airbnb-114957",
+      "StackId": "arn:aws:cloudformation:eu-central-1:584074828580:stack/amplify-ercan-airbnb-114957/8591b630-cd45-11ed-be67-0676e6f62d12",
+      "AmplifyAppId": "d292b4kia0v5ry"
+    },
+    "categories": {
+      "auth": {
+        "ercane14fc63e": {}
+      },
+      "api": {
+        "ercan": {}
+      }
+    }
+  }
+}
