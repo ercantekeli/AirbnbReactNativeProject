@@ -1,5 +1,5 @@
-import {View, Text, Pressable} from 'react-native';
 import React, {useState} from 'react';
+import {View, Text, Pressable} from 'react-native';
 import styles from './styles';
 import {useNavigation, useRoute} from '@react-navigation/native';
 
@@ -7,7 +7,7 @@ const GuestsScreen = () => {
   const [adults, setAdults] = useState(0);
   const [children, setChildren] = useState(0);
   const [infants, setInfants] = useState(0);
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
   const route = useRoute();
   console.log('routeERCAN', route);
   return (
@@ -87,7 +87,6 @@ const GuestsScreen = () => {
           </View>
         </View>
       </View>
-
       <Pressable
         onPress={() =>
           navigation.navigate('Home', {

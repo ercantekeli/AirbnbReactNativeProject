@@ -23,7 +23,7 @@ export interface IPost {
 const days = 7;
 
 const Post = ({post}: {post: IPost}): JSX.Element => {
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
   const goToPostPage = () => {
     navigation.navigate('Post', {postId: post.id});
   };

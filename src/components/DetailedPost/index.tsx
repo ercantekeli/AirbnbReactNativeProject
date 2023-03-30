@@ -1,6 +1,6 @@
 import React from 'react';
+import {Image, Text, ScrollView} from 'react-native';
 import styles from './styles';
-import {View, Image, Text, ScrollView} from 'react-native';
 
 export interface IPost {
   id: string;

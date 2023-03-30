@@ -1,5 +1,5 @@
-import {useWindowDimensions, View} from 'react-native';
 import React, {useState, useEffect, useRef} from 'react';
+import {useWindowDimensions, View} from 'react-native';
 import MapView from 'react-native-maps';
 import CustomMarker from '../../components/CustomMarker';
 import PostCarouselItem from '../../components/PostCarouselItem';
@@ -13,7 +13,7 @@ const SearchResultsMap = ({posts}: any) => {
 
   const viewConfig = useRef({itemVisiblePercentThreshold: 70});
 
-  const onViewChanged = useRef(({viewableItems}) => {
+  const onViewChanged = useRef(({viewableItems}: any) => {
     if (viewableItems.length > 0) {
       const selectedPlace = viewableItems[0].item;
       setSelectedPlaceId(selectedPlace.id);

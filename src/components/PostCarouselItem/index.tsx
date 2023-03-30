@@ -22,7 +22,7 @@ export interface IPost {
 
 const PostCarouselItem = ({post}: {post: IPost}): JSX.Element => {
   const width = useWindowDimensions().width;
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
   const goToPostPage = () => {
     navigation.navigate('Post', {postId: post.id});
   };

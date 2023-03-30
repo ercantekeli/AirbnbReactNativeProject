@@ -4,7 +4,6 @@ const styles = StyleSheet.create({
   container: {
     padding: 20,
     backgroundColor: 'white',
-    // height: '100%',
   },
   image: {
     width: '100%',

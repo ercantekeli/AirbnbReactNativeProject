@@ -5,7 +5,7 @@ import Fontisto from 'react-native-vector-icons/Fontisto';
 import {useNavigation} from '@react-navigation/native';
 
 const HomeScreen = (): JSX.Element => {
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
 
   return (
     <View>
